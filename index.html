@@ -1,0 +1,54 @@
+<html>
+  <head>
+    <title>LO</title>
+    <link rel="stylesheet" href="css/index.css">
+  </head>
+  <body>
+    <h3 id="courses">Courses</h3>
+    <div class="courseCircleDiv">
+      <div class="courseCircle" onclick="displayOne(this);"><p>SE</p></div>
+      <div class="spaceBetween"></div>
+      <div class="courseCircle"onclick="displayOne(this);"><p>Math</p></div>
+      <div class="spaceBetween"></div>
+      <div class="courseCircle"onclick="displayOne(this);"><p>Programming</p></div>
+      <div class="spaceBetween"></div>
+      <div class="courseCircle"onclick="displayOne(this);"><p>Networking</p></div>
+    </div>
+    <div id="container">
+      <div class="weeks" id="weeks">
+        <p class="weekNum" onclick="populate(this)">Week 1</p>
+        <div class="spaceBetween" ></div>
+        <p class="weekNum" onclick="populate(this)">Week 2</p>
+        <div class="spaceBetween"></div>
+        <p class="weekNum" onclick="populate(this)">Week 3</p>
+        <div class="spaceBetween"></div>
+        <p class="weekNum" onclick="populate(this)">Week 4</p>
+        <button id="up" onclick="changeWeeks(this)">&gt;</button>
+        <button id="down" onclick="changeWeeks(this)">&lt; </button>
+      </div>
+
+      <div class="individualLoDiv" id="individualLoDiv">
+        <div class="individualLo">
+          <p class="weeklyLo"></p>
+        </div>
+        <div class="individualLo">
+          <p class="weeklyLo"></p>
+        </div>
+        <div class="individualLo">
+          <p class="weeklyLo"></p>
+        </div>
+        <div class="individualLo">
+          <p class="weeklyLo"></p>
+        </div>
+        <div class="individualLo">
+          <p class="weeklyLo"></p>
+        </div>
+        <div class="individualLo">
+          <p class="weeklyLo"></p>
+        </div>
+      </div>
+      <div id="spaceHor"></div>
+    </div>
+    <script type="text/javascript" src = "js/index.js"></script>
+  </body>
+</html>
